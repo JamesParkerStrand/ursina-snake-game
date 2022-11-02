@@ -9,7 +9,7 @@ y_mov = 0
 
 x_mov = 1
 
-cube = load_model("cube")
+cube = load_model("cube", use_deepcopy=True)
 
 list1 = np.asarray([])
 
